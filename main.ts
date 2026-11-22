@@ -1,5 +1,5 @@
 const fs = require('fs');
 
 fs.mkdirSync('/output', { recursive: true });
-const text = 'The kettle ticks as it cools. On the porch step a cat has folded itself into the last warm square of sun. Nothing is due. The lamp in the next room hums low, and the dark outside holds no questions.';
+const text = 'A cup of tea, going slowly cool. Someone two rooms away is laughing at nothing you need to hear. The window is open one inch and the evening comes in quietly, like a cat that lives here.';
 fs.writeFileSync('/output/entry.txt', text + '\n', 'utf8');
